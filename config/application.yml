@@ -1,0 +1,27 @@
+server:
+  tomcat:
+    threads:
+      max: 100
+  port: 8055
+  error:
+    include-message: always
+
+logging:
+  config: config/logback.xml
+
+spring:
+  security:
+    basic:
+      enabled: false
+  cache:
+    type: redis # "none" to disable caching and "redis" to enable caching
+    server: redis://redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com:6379
+#    server: redis://127.0.0.1:6379
+    redis:
+      nettyThreads: 32
+      connectionPoolSize: 64
+      connectionMinimumIdleSize: 24
+      timeout: 3000
+      connectionTimeout: 1000
+      retryAttempts: 3
+      retryInterval: 1500

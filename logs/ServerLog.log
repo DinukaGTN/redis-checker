@@ -1,0 +1,75 @@
+[2023-10-06 17:12:13.514] INFO  (com.theglobalmarketaccess.ohlc.Application) - Starting RedisChecker using Java 21 with PID 5448 (C:\Users\DinukaMudalige\Documents\My GTN\redis-checker\target\classes started by DinukaMudalige in C:\Users\DinukaMudalige\Documents\My GTN\redis-checker)
+[2023-10-06 17:12:13.518] INFO  (com.theglobalmarketaccess.ohlc.Application) - No active profile set, falling back to 1 default profile: "default"
+[2023-10-06 17:12:15.042] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat initialized with port(s): 8055 (http)
+[2023-10-06 17:12:15.055] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Initializing ProtocolHandler ["http-nio-8055"]
+[2023-10-06 17:12:15.061] INFO  (org.apache.catalina.core.StandardService) - Starting service [Tomcat]
+[2023-10-06 17:12:15.061] INFO  (org.apache.catalina.core.StandardEngine) - Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-10-06 17:12:15.207] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]) - Initializing Spring embedded WebApplicationContext
+[2023-10-06 17:12:15.209] INFO  (org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext) - Root WebApplicationContext: initialization completed in 1625 ms
+[2023-10-06 17:12:15.342] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configuration started
+[2023-10-06 17:12:15.507] INFO  (org.redisson.Version) - Redisson 3.19.0
+[2023-10-06 17:12:16.623] INFO  (org.redisson.connection.pool.MasterPubSubConnectionPool) - 1 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 17:12:19.891] INFO  (org.redisson.connection.pool.MasterConnectionPool) - 24 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 17:12:19.938] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configured
+[2023-10-06 17:12:19.943] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis cache manager configuring
+[2023-10-06 17:12:19.945] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - redis cache manager configured
+[2023-10-06 17:12:21.027] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Starting ProtocolHandler ["http-nio-8055"]
+[2023-10-06 17:12:21.056] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat started on port(s): 8055 (http) with context path ''
+[2023-10-06 17:12:21.071] INFO  (com.theglobalmarketaccess.ohlc.Application) - Started RedisChecker in 8.477 seconds (process running for 9.395)
+[2023-10-06 18:15:12.671] INFO  (com.theglobalmarketaccess.ohlc.Application) - Starting Application using Java 21 with PID 18512 (C:\Users\DinukaMudalige\Documents\My GTN\redis-checker\target\classes started by DinukaMudalige in C:\Users\DinukaMudalige\Documents\My GTN\redis-checker)
+[2023-10-06 18:15:12.676] INFO  (com.theglobalmarketaccess.ohlc.Application) - No active profile set, falling back to 1 default profile: "default"
+[2023-10-06 18:15:15.787] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat initialized with port(s): 8055 (http)
+[2023-10-06 18:15:15.830] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Initializing ProtocolHandler ["http-nio-8055"]
+[2023-10-06 18:15:15.838] INFO  (org.apache.catalina.core.StandardService) - Starting service [Tomcat]
+[2023-10-06 18:15:15.838] INFO  (org.apache.catalina.core.StandardEngine) - Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-10-06 18:15:16.180] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]) - Initializing Spring embedded WebApplicationContext
+[2023-10-06 18:15:16.183] INFO  (org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext) - Root WebApplicationContext: initialization completed in 3355 ms
+[2023-10-06 18:15:16.485] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configuration started
+[2023-10-06 18:15:16.715] INFO  (org.redisson.Version) - Redisson 3.19.0
+[2023-10-06 18:15:18.069] INFO  (org.redisson.connection.pool.MasterPubSubConnectionPool) - 1 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 18:15:21.482] INFO  (org.redisson.connection.pool.MasterConnectionPool) - 24 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 18:15:21.577] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configured
+[2023-10-06 18:15:21.586] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis cache manager configuring
+[2023-10-06 18:15:21.588] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - redis cache manager configured
+[2023-10-06 18:15:22.530] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Starting ProtocolHandler ["http-nio-8055"]
+[2023-10-06 18:15:22.576] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat started on port(s): 8055 (http) with context path ''
+[2023-10-06 18:15:22.600] INFO  (com.theglobalmarketaccess.ohlc.Application) - Started Application in 11.366 seconds (process running for 12.44)
+[2023-10-06 18:34:53.251] INFO  (com.theglobalmarketaccess.ohlc.Application) - Starting Application using Java 21 with PID 7928 (C:\Users\DinukaMudalige\Documents\My GTN\redis-checker\target\classes started by DinukaMudalige in C:\Users\DinukaMudalige\Documents\My GTN\redis-checker)
+[2023-10-06 18:34:53.256] INFO  (com.theglobalmarketaccess.ohlc.Application) - No active profile set, falling back to 1 default profile: "default"
+[2023-10-06 18:34:57.153] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat initialized with port(s): 8055 (http)
+[2023-10-06 18:34:57.175] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Initializing ProtocolHandler ["http-nio-8055"]
+[2023-10-06 18:34:57.180] INFO  (org.apache.catalina.core.StandardService) - Starting service [Tomcat]
+[2023-10-06 18:34:57.181] INFO  (org.apache.catalina.core.StandardEngine) - Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-10-06 18:34:57.509] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]) - Initializing Spring embedded WebApplicationContext
+[2023-10-06 18:34:57.511] INFO  (org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext) - Root WebApplicationContext: initialization completed in 4094 ms
+[2023-10-06 18:34:57.817] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configuration started
+[2023-10-06 18:34:57.970] INFO  (org.redisson.Version) - Redisson 3.19.0
+[2023-10-06 18:34:59.481] INFO  (org.redisson.connection.pool.MasterPubSubConnectionPool) - 1 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 18:35:03.199] INFO  (org.redisson.connection.pool.MasterConnectionPool) - 24 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 18:35:03.273] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configured
+[2023-10-06 18:35:03.281] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis cache manager configuring
+[2023-10-06 18:35:03.285] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - redis cache manager configured
+[2023-10-06 18:35:04.543] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Starting ProtocolHandler ["http-nio-8055"]
+[2023-10-06 18:35:04.622] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat started on port(s): 8055 (http) with context path ''
+[2023-10-06 18:35:04.645] INFO  (com.theglobalmarketaccess.ohlc.Application) - Started Application in 12.717 seconds (process running for 13.667)
+[2023-10-06 18:38:12.524] INFO  (com.theglobalmarketaccess.ohlc.Application) - Starting Application using Java 21 with PID 14692 (C:\Users\DinukaMudalige\Documents\My GTN\redis-checker\target\classes started by DinukaMudalige in C:\Users\DinukaMudalige\Documents\My GTN\redis-checker)
+[2023-10-06 18:38:12.528] INFO  (com.theglobalmarketaccess.ohlc.Application) - No active profile set, falling back to 1 default profile: "default"
+[2023-10-06 18:38:16.094] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat initialized with port(s): 8055 (http)
+[2023-10-06 18:38:16.135] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Initializing ProtocolHandler ["http-nio-8055"]
+[2023-10-06 18:38:16.143] INFO  (org.apache.catalina.core.StandardService) - Starting service [Tomcat]
+[2023-10-06 18:38:16.145] INFO  (org.apache.catalina.core.StandardEngine) - Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-10-06 18:38:16.425] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]) - Initializing Spring embedded WebApplicationContext
+[2023-10-06 18:38:16.428] INFO  (org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext) - Root WebApplicationContext: initialization completed in 3749 ms
+[2023-10-06 18:38:16.692] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configuration started
+[2023-10-06 18:38:16.853] INFO  (org.redisson.Version) - Redisson 3.19.0
+[2023-10-06 18:38:18.324] INFO  (org.redisson.connection.pool.MasterPubSubConnectionPool) - 1 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 18:38:22.355] INFO  (org.redisson.connection.pool.MasterConnectionPool) - 24 connections initialized for redis-feed-qa-cache-tns.1eiork.ng.0001.aps1.cache.amazonaws.com/172.20.216.179:6379
+[2023-10-06 18:38:22.443] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis configured
+[2023-10-06 18:38:22.449] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - Redis cache manager configuring
+[2023-10-06 18:38:22.454] INFO  (com.theglobalmarketaccess.ohlc.config.cache.CacheConfiguration) - redis cache manager configured
+[2023-10-06 18:38:23.751] INFO  (org.apache.coyote.http11.Http11NioProtocol) - Starting ProtocolHandler ["http-nio-8055"]
+[2023-10-06 18:38:23.836] INFO  (org.springframework.boot.web.embedded.tomcat.TomcatWebServer) - Tomcat started on port(s): 8055 (http) with context path ''
+[2023-10-06 18:38:23.876] INFO  (com.theglobalmarketaccess.ohlc.Application) - Started Application in 12.733 seconds (process running for 13.726)
+[2023-10-06 18:38:30.699] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-10-06 18:38:30.700] INFO  (org.springframework.web.servlet.DispatcherServlet) - Initializing Servlet 'dispatcherServlet'
+[2023-10-06 18:38:30.701] INFO  (org.springframework.web.servlet.DispatcherServlet) - Completed initialization in 1 ms
