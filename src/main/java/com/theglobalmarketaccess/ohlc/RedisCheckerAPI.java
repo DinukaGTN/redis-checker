@@ -15,6 +15,10 @@ public class RedisCheckerAPI {
     private RedisChecker redisChecker;
 
     private Exchange exchange;
+    @GetMapping("/count/all")
+    public int countAll(){
+        return redisChecker.getNumberOfKeys();
+    }
 
     @GetMapping("/count/{exchange}")
     public int countAllSymbols(@PathVariable String exchange){

@@ -28,9 +28,7 @@ public class RedisChecker {
     }
 
     public RScoredSortedSet<String> getKeys(String key) {
-        List<String> scoredSortedData = new ArrayList<>();
-        RScoredSortedSet<String> scoredSortedSet = redissonClient.getScoredSortedSet(key);
-        return scoredSortedSet;
+        return redissonClient.getScoredSortedSet(key);
     }
 
     public Exchange getExchange(String exchange) {
@@ -42,7 +40,11 @@ public class RedisChecker {
 
         // get the keys conforming to a pattern
         exchangeObj.setSymbols(keys.getKeysByPattern(keyPattern));
-        exchangeObj.setCount((int)keys.count());
+
+        int count = 0;
+        for (String s : exchangeObj.getSymbols()) count++;
+
+        exchangeObj.setCount(count);
 
         return exchangeObj;
     }
@@ -57,14 +59,10 @@ public class RedisChecker {
         return "read all keys in " + exchange.getName();
     }
 
-//    public int getNumberOfKeys() {
-//        RKeys keys = redissonClient.getKeys();
-//        // extract only the names
-//        Iterable<String> allKeys = keys.getKeys();
-//        int count = (int) allKeys.spliterator().getExactSizeIfKnown();
-//        System.out.println("Total number of keys: " + count);
-//        return count;
-//    }
+    public int getNumberOfKeys() {
+        RKeys keys = redissonClient.getKeys();
+        return (int)keys.count();
+    }
 
 //    public String getSpecificSymbolByExchange(String symbol) {
 //        return scoredSortedData;
